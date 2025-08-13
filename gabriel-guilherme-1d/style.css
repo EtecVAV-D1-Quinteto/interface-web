@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #BFA2F2, #D8B4F8);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+.imagem-texto {
+  align-items: center;
+}
+.cartaz {
+  display: block;
+  margin: 20px auto 0;
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.mariadapenha {
+  display: block;
+  margin: 20px auto 0;
+  width: 300px;
+  height: auto;
+}
+
+.hotbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 0;
+  top: 0;
+  width: 100%;
+  background: rgba(122, 34, 122, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  flex-direction: column; 
+  align-items: center;  
+}
+
+.hotbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.hotbar a:hover {
+  color: #FFD6FF;
+  transform: scale(1.1);
+}
+
+
+.conteudo {
+  max-width: 900px;
+  margin: 120px auto 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  color: #FF00FF;
+  text-shadow: 0px 0px 8px black;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+  text-shadow: 0px 0px 4px black;
+}
+
+.titulo-nav {
+  margin: 0;
+  font-size: 32px;
+  color: white;
+  text-shadow: 0 0 6px black;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}

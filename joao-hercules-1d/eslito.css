@@ -1,0 +1,38 @@
+body {
+  background-color: #8f4ce0;
+  text-align: center;
+  font-size: larger;
+  color: #ffffff; /* Corrigido: a cor do texto agora é branca */
+}
+
+a:hover {
+  color: rgb(169, 135, 207);
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  transition: transform 0.5s ease; /* Adicionei a transição para a imagem */
+  height: 350px;
+  width: 650px;
+}
+
+img:hover {
+  transform: scale(1.3);
+  box-shadow: 0 10px 20px; 
+}
+/* Define o tamanho padrão da imagem */
+.imagem-zoom {
+  width: 450px;
+  height: 300px;
+  transition: transform 0.5s ease; /* Adiciona uma transição suave */
+}
+
+/* Define o efeito de zoom quando o mouse passa por cima */
+.imagem-zoom:hover {
+  transform: scale(1.2); /* Aumenta a imagem em 20% */
+}
+
