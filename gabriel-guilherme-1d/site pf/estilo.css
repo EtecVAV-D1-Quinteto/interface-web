@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin : 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hotbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 0;
+  top: 0;
+  margin-top: 0;
+  width: 100%;
+  background: rgba(180, 177, 180, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  flex-direction: column; 
+  align-items: center;  
+  position: fixed;
+}
+
+
+.titulo-nav {
+  margin: 0;
+  font-size: 25px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.inicio a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.inicio a:hover {
+  transform: scale(1.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.futebol a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.futebol a:hover {
+  color: #ff9900;
+  transform: scale(1.1);
+}
+
+.futsal a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.futsal a:hover {
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.basquete a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.basquete a:hover {
+  color: #a200ff;
+  transform: scale(1.1);
+}
+
+.volei a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.volei a:hover {
+  color: #1100ff;
+  transform: scale(1.1);
+}
+
+.handball a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.handball a:hover {
+  color: #4400ff;
+  transform: scale(1.1);
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    margin-top: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo{
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+img{
+  display: block;
+  margin: 20px auto 0;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
