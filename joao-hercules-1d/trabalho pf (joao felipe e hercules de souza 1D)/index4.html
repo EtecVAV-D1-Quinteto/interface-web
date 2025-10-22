@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+    p {
+      font-family: "Courier New", serif;
+    }
+  </style>
+  <link rel="stylesheet" href="eslito.css">
+</head>
+  <body><body style="background-image: url('fundoc.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"></body>
+
+    <nav class="hotbar">
+      <div class="links">
+        <p><a href="index.html">Sobre a dupla</a> </p>
+        <p><a href="index2.html">Resumo</a></p>
+        <p><a href="index3.html">Futsal</a></p>
+        <p><a href="index4.html">Vôlei</a></p>
+        <p><a href="index5.html">Basquete</a></p>
+        <p><a href="index6.html">Futsal fem.</a></p>
+        <P><a href="referencias.html">Tabela Geral "PF"</a></P>
+        
+      </div>
+  
+   <div class="letra-fundo">C</div>
+<style>
+  .letra-fundo {
+    position: absolute;
+    top: 25%;         /* centraliza verticalmente */
+    left: 100px;       /* distância da borda esquerda */
+    transform: translateY(-50%); /* centraliza só verticalmente */
+    font-size: 400px;
+    font-weight: 900;
+    color: rgba(2, 6, 245, 0.637); /* cor com transparência */
+    z-index: 2;       /* fica acima da imagem */
+    pointer-events: none;
+  }
+</style>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="WhatsApp Image 2025-10-19 at 12.49.57 PM.jpeg" class="d-block mx-auto w-10" alt="Imagem 1">
+    </div>
+
+    <div class="carousel-item">
+      <img src="WhatsApp Image 2025-10-19 at 12.49.34 PM.jpeg" class="d-block mx-auto w-35" alt="Imagem 2">
+    </div>
+
+    <div class="carousel-item">
+      <img src="WhatsApp Image 2025-10-19 at 12.49.34 PM (1).jpeg" class="d-block mx-auto w-30" alt="Imagem 3">
+    </div>
+
+    <div class="carousel-item">
+      <img src="WhatsApp Image 2025-10-19 at 12.49.12 PM.jpeg" class="d-block mx-auto w-30" alt="Imagem 4">
+    </div>
+
+    <div class="carousel-item">
+      <img src="WhatsApp Image 2025-10-19 at 12.48.35 PM.jpeg" class="d-block mx-auto w-30" alt="Imagem 5">
+    </div>
+
+  </div>
+
+  <!-- Controles do carrossel -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Quadradinho Persistente</title>
+  <style>
+    .quadradinho {
+      position: absolute;
+      top: 480px; 
+      left: 450px;
+      width: 1000px; 
+      height: 300px;
+      background: #444380;
+      border: 2px solid #e6be3b;
+      border-radius: 14px;
+      box-shadow: 0 6px 16px rgba(255, 189, 47, 0.932);
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold; /* texto em negrito */
+      outline: none;
+      color: #fcfcfc;
+    }
+
+    .quadradinho:empty::before {
+      content: "Digite algo aqui...";
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Quadradinho com ID -->
+  <div class="quadradinho" id="q1" contenteditable="true">
+    Na eletrizante final de vôlei entre o "C" curso de Desenvolvimento de Sistemas e o "B" curso de Edificações, a partida foi marcada por muita emoção e reviravoltas. O time de Desenvolvimento de Sistemas (C) entrou em quadra com a estratégia afiada, como se estivesse codificando cada jogada com precisão. A comunicação entre os jogadores era impecável, como se cada um tivesse um algoritmo bem definido para encontrar a melhor solução para cada ponto. Por outro lado, o time de Edificações (B) se destacou pela força e resiliência. Com uma defesa sólida e ataques potentes, tentaram erigir uma barreira contra os ataques adversários, mas os jogadores de Sistemas conseguiram quebrar essas defesas com agilidade e estratégia. O jogo foi equilibrado até o último set, mas o time "C", com sua leitura rápida e coordenação impecável, conseguiu conquistar a vitória, superando a pressão do time adversário e fechando a partida com um placar decisivo. A torcida foi ao delírio, celebrando não só o desempenho atlético, mas também a união e o espírito de equipe de ambos os cursos, que mostraram como a dedicação, seja no código ou na construção de estruturas, pode levar à vitória.
+  </div>
+
+  <script>
+    // Seleciona o quadradinho pelo ID
+    const box = document.getElementById("q1");
+
+    // Verifica se o elemento existe antes de continuar
+    if (box) {
+      // Chave única no localStorage usando o ID
+      const storageKey = "quadradinho_texto_" + box.id;
+
+      // Recupera o texto salvo ao carregar a página
+      const savedText = localStorage.getItem(storageKey);
+      if (savedText) {
+        box.innerHTML = savedText;
+      }
+
+      // Salva automaticamente quando o texto muda
+      box.addEventListener("input", () => {
+        localStorage.setItem(storageKey, box.innerHTML);
+      });
+    }
+  </script>
+
+</body>
+</html>
